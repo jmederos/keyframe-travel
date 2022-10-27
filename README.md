@@ -54,4 +54,4 @@ Interpolation frames: 5
 |    30   |      10     |          0.8         |
 
 ### Output
-[animation](example/kf-travel-00000.mp4)
+![animation](example/kf-travel-00000.mp4)
