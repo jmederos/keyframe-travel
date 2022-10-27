@@ -58,4 +58,5 @@ Interpolation frames: 5
 ![frame-05](example/00005-1245514267-(painting%20of%20a%20lion)%20by%20Pablo%20Picasso%2C%20cubist%20masterpiece.png)
 ![frame-10](example/00010-1245514267-(painting%20of%20a%20lion)%20by%20Pablo%20Picasso%2C%20cubist%20masterpiece.png)
 ![frame-20](example/00020-1245514267-(painting%20of%20a%20lion)%20by%20Pablo%20Picasso%2C%20cubist%20masterpiece.png)
-[animation](example/kf-travel-00000.mp4)
+
+## [Download Animation](example/kf-travel-00000.mp4)
