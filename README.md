@@ -1,6 +1,7 @@
 # Keyframe Travel
-Script for [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) to generate images using keyframes
-Based on [yownas/seed_travel](https://github.com/yownas/seed_travel)
+Script for [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) to generate images using keyframes.
+
+Based on [yownas/seed_travel](https://github.com/yownas/seed_travel).
 
 ## Usage
 ### Installation
@@ -54,4 +55,7 @@ Interpolation frames: 5
 |    30   |      10     |          0.8         |
 
 ### Output
-![animation](example/kf-travel-00000.mp4)
+![frame-05](example/00005-1245514267-(painting%20of%20a%20lion)%20by%20Pablo%20Picasso%2C%20cubist%20masterpiece.png)
+![frame-10](example/00010-1245514267-(painting%20of%20a%20lion)%20by%20Pablo%20Picasso%2C%20cubist%20masterpiece.png)
+![frame-20](example/00020-1245514267-(painting%20of%20a%20lion)%20by%20Pablo%20Picasso%2C%20cubist%20masterpiece.png)
+[animation](example/kf-travel-00000.mp4)
