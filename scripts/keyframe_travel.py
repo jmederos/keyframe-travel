@@ -2,8 +2,8 @@ import os
 import gradio as gr
 import numpy as np
 import modules.scripts as scripts
+import modules.shared as shared
 from modules.processing import Processed, process_images
-from modules.shared import opts, cmd_opts, state, total_tqdm
 
 class Script(scripts.Script):
     def title(self):
@@ -118,15 +118,16 @@ class Script(scripts.Script):
         # TODO: Save frames_to_generate as CSV receipt 🤔
 
         # Set generation helpers
-        state.job_count = total_num_frames
-        total_tqdm.updateTotal(total_num_steps)
+        shared.state.job_count = total_num_frames
+        shared.total_tqdm.updateTotal(total_num_steps)
 
         for frame in frames_to_generate:
-            if state.interrupted:
+            if shared.state.interrupted:
                 break
  
             p.steps     = int(float(frame[0]))
             p.cfg_scale = float(frame[1])
+            p.sd_model  = shared.sd_model
 
             if keyframes_shape > 2:
                 p.denoising_strength = float(frame[2])
